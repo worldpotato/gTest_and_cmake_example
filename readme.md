@@ -4,32 +4,21 @@ This is my example how to use gtest together with cmake. It's maybe not the best
 
 ## Project structure
 
+```
 ├── CMakeLists.txt                      // main CMakeLists.txt
-
 ├── lib
-
 │   └── math                            // library to test
-
 │       ├── CMakeLists.txt              // library CMakeLists.txt
-
 │       ├── include
-
 │       │   └── math.hpp                // header of class which should be tested
-
 │       ├── src
-
 │       │   └── math.cpp                // source of class which should be tested
-
 │       └── tests
-
 │           ├── add-test.cpp            // test file 1
-
 │           ├── mainTest.cpp            // test file with gtest main method
-
 │           └── subtract-test.cpp       // test file 2
-
 └── main.cpp
-
+```
 
 ### main.cpp
 
